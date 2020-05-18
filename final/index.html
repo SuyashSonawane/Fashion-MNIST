@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MNIST</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <canvas id="canvas" width="280" height="280" class="m-3"></canvas>
+    <img id="canvasimg" />
+    <br />
+    <input type="button" value="classify" id="sb" size="48" />
+    <br />
+    <input type="button" value="clear" id="cb" size="23" />
+  </body>
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script>
+  <script src="./main.js"></script>
+</html>
